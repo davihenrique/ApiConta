@@ -1,6 +1,6 @@
-@ApiTestePraticoDesenvolvedor_HostAddress = http://localhost:5219
+@ApiConta_HostAddress = http://localhost:5219
 
-GET {{ApiTestePraticoDesenvolvedor_HostAddress}}/weatherforecast/
+GET {{ApiConta_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

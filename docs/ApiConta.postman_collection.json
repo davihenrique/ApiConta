@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "dc0177b6-6a54-4c28-8b44-721037e9e39c",
+		"name": "ApiConta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19570898"
+	},
+	"item": [
+		{
+			"name": "[LOCAL] Consultar Todos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7265/Consultar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7265",
+					"path": [
+						"Consultar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[LOCAL] Consultar Por ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7265/Consultar?id=29c77b4c-9315-400a-a14a-dac99a54133d",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7265",
+					"path": [
+						"Consultar"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "29c77b4c-9315-400a-a14a-dac99a54133d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[LOCAL] Incluir Conta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Conta de Luz\",\r\n  \"valorOriginal\": 250,\r\n  \"dataVencimento\": \"2024-01-01\",\r\n  \"dataPagamento\": \"2024-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7265/IncluirConta",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7265",
+					"path": [
+						"IncluirConta"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

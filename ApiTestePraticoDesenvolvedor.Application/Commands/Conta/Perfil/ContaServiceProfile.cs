@@ -1,9 +1,9 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
-using ApiTestePraticoDesenvolvedor.Domain.Dto;
+﻿using ApiConta.Application.Commands.Conta.Requests;
+using ApiConta.Application.Commands.Conta.Responses;
+using ApiConta.Domain.Dto;
 using AutoMapper;
 
-namespace ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Perfil;
+namespace ApiConta.Application.Commands.Conta.Perfil;
 public class ContaServiceProfile : Profile
 {
     public ContaServiceProfile()

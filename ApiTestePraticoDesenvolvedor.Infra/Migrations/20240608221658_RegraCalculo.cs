@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ApiTestePraticoDesenvolvedor.Infra.Migrations
+namespace ApiConta.Infra.Migrations
 {
     /// <inheritdoc />
     public partial class RegraCalculo : Migration

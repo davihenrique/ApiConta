@@ -1,10 +1,10 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
-using ApiTestePraticoDesenvolvedor.Application.Interfaces.Conta;
+﻿using ApiConta.Application.Commands.Conta.Enum;
+using ApiConta.Application.Commands.Conta.Requests;
+using ApiConta.Application.Commands.Conta.Responses;
+using ApiConta.Application.Interfaces.Conta;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiTestePraticoDesenvolvedor.Api.Controllers;
+namespace ApiConta.Api.Controllers;
 
 [ApiController]
 [Route("/")]

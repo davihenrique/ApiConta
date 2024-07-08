@@ -1,14 +1,14 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
-using ApiTestePraticoDesenvolvedor.Application.Extensions;
-using ApiTestePraticoDesenvolvedor.Application.Interfaces.Conta;
-using ApiTestePraticoDesenvolvedor.Domain.Dto;
-using ApiTestePraticoDesenvolvedor.Infra.Interfaces;
+﻿using ApiConta.Application.Commands.Conta.Enum;
+using ApiConta.Application.Commands.Conta.Requests;
+using ApiConta.Application.Commands.Conta.Responses;
+using ApiConta.Application.Extensions;
+using ApiConta.Application.Interfaces.Conta;
+using ApiConta.Domain.Dto;
+using ApiConta.Infra.Interfaces;
 using AutoMapper;
 using Microsoft.IdentityModel.Tokens;
 
-namespace ApiTestePraticoDesenvolvedor.Application.Commands.Conta;
+namespace ApiConta.Application.Commands.Conta;
 public class ContaService(IContaRepository contaRepository, IMapper mapper) : IContaService
 {
     private readonly IContaRepository _contaRepository = contaRepository;

@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
+using ApiConta.Application.Commands.Conta.Requests;
 using FluentValidation;
 
-namespace ApiTestePraticoDesenvolvedor.Application.Validations;
+namespace ApiConta.Application.Validations;
 
 [ExcludeFromCodeCoverage]
 public class ContaValidator : AbstractValidator<ContaIncluirRequest>

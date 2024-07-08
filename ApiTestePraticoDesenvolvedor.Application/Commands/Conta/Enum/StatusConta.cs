@@ -1,4 +1,4 @@
-﻿namespace ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
+﻿namespace ApiConta.Application.Commands.Conta.Enum;
 public enum StatusConta
 {
     ContaIncluida,

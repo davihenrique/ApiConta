@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ApiTestePraticoDesenvolvedor.Infra.Migrations
+namespace ApiConta.Infra.Migrations
 {
     /// <inheritdoc />
     [ExcludeFromCodeCoverage]

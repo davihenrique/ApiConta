@@ -1,14 +1,14 @@
-﻿using ApiTestePraticoDesenvolvedor.Api.Controllers;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
-using ApiTestePraticoDesenvolvedor.Application.Interfaces.Conta;
-using ApiTestePraticoDesenvolvedor.Tests.SharedKernel.Mock.Application.Commands.Conta.Requests;
+﻿using ApiConta.Api.Controllers;
+using ApiConta.Application.Commands.Conta.Enum;
+using ApiConta.Application.Commands.Conta.Requests;
+using ApiConta.Application.Commands.Conta.Responses;
+using ApiConta.Application.Interfaces.Conta;
+using ApiConta.Tests.SharedKernel.Mock.Application.Commands.Conta.Requests;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 
-namespace ApiTestePraticoDesenvolvedor.Tests.Api.Controllers;
+namespace ApiConta.Tests.Api.Controllers;
 public class ContaControllerTests
 {
     private readonly Mock<IContaService> _contaService;

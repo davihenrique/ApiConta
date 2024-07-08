@@ -1,6 +1,6 @@
-﻿using ApiTestePraticoDesenvolvedor.Domain.Dto;
+﻿using ApiConta.Domain.Dto;
 
-namespace ApiTestePraticoDesenvolvedor.Infra.Interfaces;
+namespace ApiConta.Infra.Interfaces;
 public interface IContaRepository
 {
     public Guid CadastrarConta(ContaDto contadto);

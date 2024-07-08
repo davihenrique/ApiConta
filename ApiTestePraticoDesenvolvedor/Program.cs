@@ -1,7 +1,7 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Perfil;
-using ApiTestePraticoDesenvolvedor.Application.Validations;
-using ApiTestePraticoDesenvolvedor.Infra.DatabaseContext;
-using ApiTestePraticoDesenvolvedor.Infra.Perfil;
+﻿using ApiConta.Application.Commands.Conta.Perfil;
+using ApiConta.Application.Validations;
+using ApiConta.Infra.DatabaseContext;
+using ApiConta.Infra.Perfil;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
@@ -25,14 +25,14 @@ builder.Services.AddDbContext<Context>(options =>
 
 // Dependency injection Service
 builder.Services.Scan(scan => scan
-    .FromApplicationDependencies(a => a.FullName!.StartsWith("ApiTestePraticoDesenvolvedor.Application"))
+    .FromApplicationDependencies(a => a.FullName!.StartsWith("ApiConta.Application"))
     .AddClasses(c => c.Where(n => n.FullName!.EndsWith("Service")))
     .AsImplementedInterfaces()
 );
 
 // Dependency injection Repository
 builder.Services.Scan(scan => scan
-    .FromApplicationDependencies(a => a.FullName!.StartsWith("ApiTestePraticoDesenvolvedor.Infra"))
+    .FromApplicationDependencies(a => a.FullName!.StartsWith("ApiConta.Infra"))
     .AddClasses(c => c.Where(n => n.FullName!.EndsWith("Repository")))
     .AsImplementedInterfaces()
 );
