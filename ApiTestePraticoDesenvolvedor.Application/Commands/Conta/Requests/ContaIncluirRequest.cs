@@ -1,4 +1,4 @@
-﻿namespace ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
+﻿namespace ApiConta.Application.Commands.Conta.Requests;
 
 public class ContaIncluirRequest
 {

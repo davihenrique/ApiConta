@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
+using ApiConta.Application.Commands.Conta.Enum;
 
-namespace ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
+namespace ApiConta.Application.Commands.Conta.Responses;
 public class ContaIncluirResponse
 {
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]

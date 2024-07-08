@@ -1,4 +1,4 @@
-﻿namespace ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
+﻿namespace ApiConta.Application.Commands.Conta.Responses;
 public class ContaListagemResponse
 {
     public Guid Id { get; set; }

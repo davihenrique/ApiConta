@@ -1,7 +1,7 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Responses;
+﻿using ApiConta.Application.Commands.Conta.Enum;
+using ApiConta.Application.Commands.Conta.Responses;
 
-namespace ApiTestePraticoDesenvolvedor.Tests.SharedKernel.Mock.Application.Commands.Conta.Responses;
+namespace ApiConta.Tests.SharedKernel.Mock.Application.Commands.Conta.Responses;
 public static class ContaIncluirResponseMock
 {
     public static ContaIncluirResponse ContaIncluirResponsePagamentoJaExistente(DateTime data)

@@ -1,4 +1,4 @@
-﻿namespace ApiTestePraticoDesenvolvedor.Domain.Dto;
+﻿namespace ApiConta.Domain.Dto;
 public class ContaDto
 {
     public Guid Id { get; set; }

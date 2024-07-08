@@ -19,9 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor.Application\ApiTestePraticoDesenvolvedor.Application.csproj" />
-    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor.Tests.SharedKernel\ApiTestePraticoDesenvolvedor.Tests.SharedKernel.csproj" />
-    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor\ApiTestePraticoDesenvolvedor.Api.csproj" />
+    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor.Application\ApiConta.Application.csproj" />
+    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor.Tests.SharedKernel\ApiConta.Tests.SharedKernel.csproj" />
+    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor\ApiConta.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

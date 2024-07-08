@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace ApiTestePraticoDesenvolvedor.Domain.Entities;
+namespace ApiConta.Domain.Entities;
 
 [ExcludeFromCodeCoverage]
 public class ContaEntity

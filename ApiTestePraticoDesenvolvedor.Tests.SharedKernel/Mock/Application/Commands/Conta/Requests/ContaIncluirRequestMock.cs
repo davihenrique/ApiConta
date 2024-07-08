@@ -1,6 +1,6 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Requests;
+﻿using ApiConta.Application.Commands.Conta.Requests;
 
-namespace ApiTestePraticoDesenvolvedor.Tests.SharedKernel.Mock.Application.Commands.Conta.Requests;
+namespace ApiConta.Tests.SharedKernel.Mock.Application.Commands.Conta.Requests;
 public static class ContaIncluirRequestMock
 {
     public static ContaIncluirRequest GetMocked()

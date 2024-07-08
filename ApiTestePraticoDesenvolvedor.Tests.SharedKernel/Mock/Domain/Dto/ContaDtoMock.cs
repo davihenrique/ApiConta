@@ -1,6 +1,6 @@
-﻿using ApiTestePraticoDesenvolvedor.Domain.Dto;
+﻿using ApiConta.Domain.Dto;
 
-namespace ApiTestePraticoDesenvolvedor.Tests.SharedKernel.Mock.Domain.Dto;
+namespace ApiConta.Tests.SharedKernel.Mock.Domain.Dto;
 public static class ContaDtoMock
 {
     public static IEnumerable<ContaDto> ContasListagem()

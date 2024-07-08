@@ -1,7 +1,7 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Extensions.Dto;
-using ApiTestePraticoDesenvolvedor.Domain.Dto;
+﻿using ApiConta.Application.Extensions.Dto;
+using ApiConta.Domain.Dto;
 
-namespace ApiTestePraticoDesenvolvedor.Application.Extensions;
+namespace ApiConta.Application.Extensions;
 public static class CalculoMulta
 {
     private static CorrecaoDto CalcularMulta(ContaDto contaDto, int diasCorridos)

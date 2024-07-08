@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestePraticoDesenvolvedor.Api", "ApiTestePraticoDesenvolvedor\ApiTestePraticoDesenvolvedor.Api.csproj", "{E48D907E-BAE2-4210-B2B7-B0601CFA3488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConta.Api", "ApiTestePraticoDesenvolvedor\ApiConta.Api.csproj", "{E48D907E-BAE2-4210-B2B7-B0601CFA3488}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D38B9467-786A-47E1-ACE5-DBA29C30DAEC}"
 	ProjectSection(SolutionItems) = preProject
@@ -20,15 +20,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{C1DFDC46-E32B-4E62-809A-88F173F7CDAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestePraticoDesenvolvedor.Application", "ApiTestePraticoDesenvolvedor.Application\ApiTestePraticoDesenvolvedor.Application.csproj", "{6DC4DCDB-A0E8-48D8-927F-D3FC711C3738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConta.Application", "ApiTestePraticoDesenvolvedor.Application\ApiConta.Application.csproj", "{6DC4DCDB-A0E8-48D8-927F-D3FC711C3738}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestePraticoDesenvolvedor.Domain", "ApiTestePraticoDesenvolvedor.Domain\ApiTestePraticoDesenvolvedor.Domain.csproj", "{4A8E76CE-53DF-4930-89AE-4779AA739915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConta.Domain", "ApiTestePraticoDesenvolvedor.Domain\ApiConta.Domain.csproj", "{4A8E76CE-53DF-4930-89AE-4779AA739915}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestePraticoDesenvolvedor.Infra", "ApiTestePraticoDesenvolvedor.Infra\ApiTestePraticoDesenvolvedor.Infra.csproj", "{AEE9B224-23AA-4CFE-8400-0351126F25DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConta.Infra", "ApiTestePraticoDesenvolvedor.Infra\ApiConta.Infra.csproj", "{AEE9B224-23AA-4CFE-8400-0351126F25DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestePraticoDesenvolvedor.Tests", "ApiTestePraticoDesenvolvedor.Tests\ApiTestePraticoDesenvolvedor.Tests.csproj", "{A181DA01-B5DB-4794-BC09-67A865E94DD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConta.Tests", "ApiTestePraticoDesenvolvedor.Tests\ApiConta.Tests.csproj", "{A181DA01-B5DB-4794-BC09-67A865E94DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTestePraticoDesenvolvedor.Tests.SharedKernel", "ApiTestePraticoDesenvolvedor.Tests.SharedKernel\ApiTestePraticoDesenvolvedor.Tests.SharedKernel.csproj", "{985F7DF7-DF89-41FD-9510-A410CA864719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConta.Tests.SharedKernel", "ApiTestePraticoDesenvolvedor.Tests.SharedKernel\ApiConta.Tests.SharedKernel.csproj", "{985F7DF7-DF89-41FD-9510-A410CA864719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

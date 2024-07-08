@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace ApiTestePraticoDesenvolvedor.Application.Validations;
+namespace ApiConta.Application.Validations;
 
 [ExcludeFromCodeCoverage]
 public class ValidateModelStateAttribute : ActionFilterAttribute

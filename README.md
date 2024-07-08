@@ -1,6 +1,10 @@
 
 # ApiTestePraticoDesenvolvedor
 
+## Observações
+Essa aplicação foi criada anteriormente em outra conta minha do GitHub.  
+Github Actions Foram Removidas.
+
 ## Solution:
 
  __1 - API__:  
@@ -23,51 +27,9 @@ Contém os Projetos referente aos Teste de Unidade.
 ## Postman Collections:
 Collection do Postman para auxiliar os testes:
 
-[Ir para a Collection](./docs/Davi_ApiTestePraticoDesenvolvedor.postman_collection.json)
+[Ir para a Collection](./docs/ApiConta.postman_collection.json)
 
 _A API retornar os Erros com Código 422_
-
-
-## Azure:
-__Swagger:__  
-https://apitestepraticodesenvolvedor.azurewebsites.net/swagger/index.html
-
-A Aplicação está em um [__Web App__](https://azure.microsoft.com/pt-br/products/app-service/web) conectada ao um [__SQL database__](https://azure.microsoft.com/pt-br/products/azure-sql/database).
-
- ![image info](./docs/img/azure.png)
-
-## GitHub Actions:
-
-## main_apitestepraticodesenvolvedor.yml:
-Quando o código é recebido na branch __main__.  
-É feito as seguintes ações:
-- Checkout
-- SonarCloud
-- Build
-- Deploy Azure
-
- __Print:__  
-
- ![image info](./docs/img/main_apitestepraticodesenvolvedor.png)
-
-## main_develop_pull_request.yml:
-Quando o código é recebido na branch __develop__ ou quando é feito PR para branchs __main__ e __develop__.
-É feito as seguintes ações:
- - Checkout
- - SonarCloud
-
- __Print:__  
- ![image info](./docs/img/main_develop_pull_request.png)
-
- ## SonarCloud:
-
-__SonarCloud__  
- https://sonarcloud.io/summary/new_code?id=davihenrique97_ApiTestePraticoDesenvolvedor
-
- ![image info](./docs/img/sonarcloud.png)
-
-Utilizado o SonarCloud para verificar a qualidade e a cobertura dos testes de Unidade.
-
 
 ## Pacotes Nugets Utilizados:
 

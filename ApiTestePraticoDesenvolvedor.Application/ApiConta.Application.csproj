@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor.Infra\ApiTestePraticoDesenvolvedor.Infra.csproj" />
+    <ProjectReference Include="..\ApiTestePraticoDesenvolvedor.Infra\ApiConta.Infra.csproj" />
   </ItemGroup>
 
 </Project>

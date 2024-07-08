@@ -1,8 +1,8 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Extensions;
-using ApiTestePraticoDesenvolvedor.Domain.Dto;
+﻿using ApiConta.Application.Extensions;
+using ApiConta.Domain.Dto;
 using FluentAssertions;
 
-namespace ApiTestePraticoDesenvolvedor.Tests.Extensions;
+namespace ApiConta.Tests.Extensions;
 public class CalcularMultaTests
 {
     [Fact(DisplayName = "Deve Retornar Sem Multas e Juros")]

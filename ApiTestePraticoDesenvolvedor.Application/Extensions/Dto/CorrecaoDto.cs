@@ -1,4 +1,4 @@
-﻿namespace ApiTestePraticoDesenvolvedor.Application.Extensions.Dto;
+﻿namespace ApiConta.Application.Extensions.Dto;
 public class CorrecaoDto
 {
     public double Valor { get; set; }

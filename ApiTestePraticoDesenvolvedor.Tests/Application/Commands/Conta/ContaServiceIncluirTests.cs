@@ -1,15 +1,15 @@
-﻿using ApiTestePraticoDesenvolvedor.Application.Commands.Conta;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Enum;
-using ApiTestePraticoDesenvolvedor.Application.Commands.Conta.Perfil;
-using ApiTestePraticoDesenvolvedor.Domain.Dto;
-using ApiTestePraticoDesenvolvedor.Infra.Interfaces;
-using ApiTestePraticoDesenvolvedor.Tests.SharedKernel.Mock.Application.Commands.Conta.Requests;
-using ApiTestePraticoDesenvolvedor.Tests.SharedKernel.Mock.Application.Commands.Conta.Responses;
+﻿using ApiConta.Application.Commands.Conta;
+using ApiConta.Application.Commands.Conta.Enum;
+using ApiConta.Application.Commands.Conta.Perfil;
+using ApiConta.Domain.Dto;
+using ApiConta.Infra.Interfaces;
+using ApiConta.Tests.SharedKernel.Mock.Application.Commands.Conta.Requests;
+using ApiConta.Tests.SharedKernel.Mock.Application.Commands.Conta.Responses;
 using AutoMapper;
 using FluentAssertions;
 using Moq;
 
-namespace ApiTestePraticoDesenvolvedor.Tests.Application.Commands.Conta;
+namespace ApiConta.Tests.Application.Commands.Conta;
 public class ContaServiceIncluirTests
 {
     private readonly Mock<IContaRepository> _contaRepository;
