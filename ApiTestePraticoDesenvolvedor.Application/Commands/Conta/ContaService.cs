@@ -15,19 +15,6 @@ public class ContaService(IContaRepository contaRepository, IMapper mapper) : IC
     private readonly IMapper _mapper = mapper;
     public ContaIncluirResponse Incluir(ContaIncluirRequest request)
     {
-        var pagamentoValido = _contaRepository
-            .VerificaPagamento(request.DataPagamento);
-
-        if (!pagamentoValido)
-        {
-            return new ContaIncluirResponse
-            {
-                Status = StatusConta.ProblemaAoIncluir,
-                Mensagens = ["Problema ao Incluir a Conta.",
-                              $"Já Existe Um Pagamento Com a Data {request.DataPagamento} !"]
-            };
-        }
-
         var contaDto = _mapper.Map<ContaDto>(request);
 
         contaDto.CalcularMultaEJuros();

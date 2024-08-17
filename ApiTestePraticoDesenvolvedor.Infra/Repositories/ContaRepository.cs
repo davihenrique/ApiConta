@@ -23,14 +23,6 @@ public class ContaRepository(Context context, IMapper mapper) : IContaRepository
         return conta.IdConta;
     }
 
-    public bool VerificaPagamento(DateTime dataPagamento)
-    {
-        var result = _context.Conta
-            .All(c => c.DataPagamento != dataPagamento);
-
-        return result;
-    }
-
     public IEnumerable<ContaDto> ListaContasCadastradas()
     {
         var result = _context.Conta;
