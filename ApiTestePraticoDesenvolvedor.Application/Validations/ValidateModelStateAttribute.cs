@@ -20,7 +20,7 @@ public class ValidateModelStateAttribute : ActionFilterAttribute
             var responseObj = new
             {
                 Status = "Requisição Falhou",
-                Errors = errors
+                Mensagens = errors
             };
 
             context.Result = new JsonResult(responseObj)
