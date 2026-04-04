@@ -2,7 +2,7 @@
 # ApiTestePraticoDesenvolvedor
 
 ## Observações
-Essa aplicação foi criada anteriormente em outra conta minha do GitHub.  
+Essa aplicação foi criada anteriormente em outra conta minha do GitHub.  
 Github Actions Foram Removidas.
 
 ## Solution:
